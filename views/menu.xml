@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="school_root"
+              name="Hospital"
+            web_icon="school_system,static/description/icon.png"
+              sequence="10"/>
+    <menuitem id="menu_school_details"
+              name="Details"
+              parent="school_root"
+              sequence="10"/>
+</odoo>
